@@ -1,13 +1,14 @@
 # WALLABY notebooks
 
-## Overview
+Template Jupyterhub notebooks for WALLABY scientists to perform data analysis on the AusSRC computing cluster. Currently includes the following:
 
-A collection of template Jupyterhub notebooks for WALLABY scientists to perform data analysis on the AusSRC computing cluster. Currently includes the following:
+* `user_science.ipynb` - access to WALLABY data through astropy tables for data analysis.
+* `user_download.ipynb` - download catalog tables and products as `.fits` files.
 
-* `admin.ipynb` - a notebook for the WALLABY project science team to perform manual inspection of the WALLABY catalogue prior to release to the wider team.
-* `user_science.ipynb` - a notebook for WALLABY scientists to perform data analysis.
-* `user_download.ipynb` - a notebook for WALLABY scientists to download catalogue data as `.csv` for tables and `.fits` for products.
+Usage instructions available at
 
-## How-to
+- https://pm.atnf.csiro.au/askap/projects/sup-wallaby/wiki/WALLABY_Data_Access
 
-These notebooks are stored in the shared WALLABY workspace which all science team members will have access to at `/mnt/shared/wallaby/notebooks`. Users will not have write permissions for this directory (and so will not be able to make changes to these notebooks) so it is recommended they copy these notebooks into their own home directory before running.
+To be used with `wallaby_data_access==0.3.0`
+
+- https://pypi.org/project/wallaby-data-access/
