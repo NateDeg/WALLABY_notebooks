@@ -1,0 +1,5 @@
+tarfile
+requests
+getpass
+pyvo
+astropy
